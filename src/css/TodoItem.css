@@ -1,0 +1,35 @@
+.todo_item {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.25s;
+  user-select: none;
+}
+.todo_item:last-child {
+  border-radius: 0 0 20px 20px;
+}
+
+.todo_item:hover {
+  background-color: plum;
+}
+
+.todo_delete {
+  margin: 1rem;
+  color: purple;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.todo_item:hover .todo_delete {
+  opacity: 1;
+}
+
+.todo_text {
+  flex: 1;
+}
+
+.checked {
+  text-decoration-line: line-through;
+  color: #adb5bd;
+}

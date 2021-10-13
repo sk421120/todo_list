@@ -1,0 +1,34 @@
+#myGoogleBtn {
+  display: inline-block;
+  background-color: plum;
+  color: white;
+  width: 60%;
+  border-radius: 5px;
+  border: thin solid orchid;
+  box-shadow: 1px 1px 1px gray;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#myGoogleBtn:hover {
+  background-color: orchid;
+}
+
+span.icon {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  vertical-align: middle;
+  /* src\comps\images\google.png */
+  background: url("../comps/images/google.png") transparent 5px 50% no-repeat;
+  background-size: 120%;
+}
+
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0px;
+  font-size: 1em;
+  font-weight: bold;
+  color: purple;
+}

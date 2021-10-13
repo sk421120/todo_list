@@ -1,0 +1,45 @@
+.todo_main_layout {
+  background-color: white;
+  width: 512px;
+  border-radius: 20px;
+  margin: 4rem auto;
+  box-shadow: 8px 8px 20px 15px rebeccapurple, -8px -8px 20px 15px plum,
+    8px -8px 20px 15px orchid, -8px 8px 20px 15px slateblue;
+}
+
+.title {
+  border-radius: 20px 20px 0 0;
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 100;
+  background-color: purple;
+  color: white;
+  position: relative;
+}
+
+.title .btn_logout {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.title .btn_logout:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+  
+
+.form_wrapper {
+  padding: 1rem;
+  border-bottom: 1px solid purple;
+}
+
+.list_wrapper {
+  min-height: 5rem;
+  text-align: center;
+}

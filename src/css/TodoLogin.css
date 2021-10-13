@@ -1,0 +1,56 @@
+.todo_login {
+  background-color: white;
+  width: 512px;
+  border-radius: 20px;
+  margin: 4rem auto;
+  box-shadow: 8px 8px 20px 15px rebeccapurple, -8px -8px 20px 15px plum,
+    8px -8px 20px 15px orchid, -8px 8px 20px 15px slateblue;
+}
+
+.login_title {
+  border-radius: 20px 20px 0 0;
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 100;
+  background-color: purple;
+  color: white;
+}
+
+.login_wrapper {
+  padding: 1rem;
+  border-bottom: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo_login input,
+.btn_login {
+  margin: 10px;
+}
+
+.todo_login input {
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid plum;
+}
+
+.todo_login input:focus {
+  background-color: lavenderblush;
+}
+
+.btn_login {
+  padding: 1rem;
+  outline: none;
+  border: none;
+  background-color: plum;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn_login:hover {
+  background-color: orchid;
+}
